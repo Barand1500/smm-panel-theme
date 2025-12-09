@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetlerimiz - SosyalBoost</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text">SosyalBoost</span>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Ana Sayfa</a></li>
+                    <li><a href="services.html" class="nav-link active">Hizmetler</a></li>
+                    <li><a href="index.html#how" class="nav-link">Nasıl Çalışır?</a></li>
+                    <li><a href="index.html#faq" class="nav-link">SSS</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="login.html" class="btn-login">Giriş Yap</a>
+                    <a href="register.html" class="btn-primary">Kayıt Ol</a>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" style="padding: 8rem 0 4rem;">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="container">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <h1 class="hero-title" style="font-size: 3rem;">
+                    Tüm <span class="gradient-text">Hizmetlerimiz</span>
+                </h1>
+                <p class="hero-description">
+                    Instagram, TikTok, YouTube ve daha fazla platform için profesyonel SMM hizmetleri. 
+                    %99.2 başarı oranı ile binlerce mutlu müşteri.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section style="padding: 4rem 0;">
+        <div class="container">
+            <div class="package-tabs">
+                <button class="tab-btn active" data-platform="all">Tümü</button>
+                <button class="tab-btn" data-platform="instagram">📷 Instagram</button>
+                <button class="tab-btn" data-platform="tiktok">🎵 TikTok</button>
+                <button class="tab-btn" data-platform="youtube">▶️ YouTube</button>
+                <button class="tab-btn" data-platform="twitter">🐦 Twitter</button>
+                <button class="tab-btn" data-platform="spotify">🎧 Spotify</button>
+            </div>
+
+            <div class="packages-grid" id="servicesGrid">
+                <!-- Instagram Services -->
+                <div class="package-card" data-platform="instagram">
+                    <div class="package-badge">📷 Instagram</div>
+                    <h3>Türk Takipçi</h3>
+                    <p>Gerçek Türk kullanıcılardan organik takipçi artışı.</p>
+                    <div class="package-price">0.05₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card featured" data-platform="instagram">
+                    <div class="featured-badge">⭐ En Popüler</div>
+                    <div class="package-badge">📷 Instagram</div>
+                    <h3>Global Takipçi</h3>
+                    <p>Dünya çapında aktif kullanıcılardan hızlı teslimat.</p>
+                    <div class="package-price">0.03₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="instagram">
+                    <div class="package-badge">📷 Instagram</div>
+                    <h3>Beğeni Paketi</h3>
+                    <p>Gönderilerinize anlık beğeni, organik görünüm.</p>
+                    <div class="package-price">0.008₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="instagram">
+                    <div class="package-badge">📷 Instagram</div>
+                    <h3>Story İzlenme</h3>
+                    <p>Story'lerinizi öne çıkaran gerçek izlenmeler.</p>
+                    <div class="package-price">0.007₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="instagram">
+                    <div class="package-badge">📷 Instagram</div>
+                    <h3>Reels İzlenme</h3>
+                    <p>Reels videolarınızı keşfete taşıyan izlenme.</p>
+                    <div class="package-price">0.01₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="instagram">
+                    <div class="package-badge">📷 Instagram</div>
+                    <h3>Yorum Servisi</h3>
+                    <p>Gönderilerinize özel Türkçe yorumlar.</p>
+                    <div class="package-price">0.50₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <!-- TikTok Services -->
+                <div class="package-card" data-platform="tiktok">
+                    <div class="package-badge">🎵 TikTok</div>
+                    <h3>TikTok Takipçi</h3>
+                    <p>Aktif TikTok kullanıcılarından kalıcı takipçi.</p>
+                    <div class="package-price">0.04₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card featured" data-platform="tiktok">
+                    <div class="featured-badge">⭐ En Popüler</div>
+                    <div class="package-badge">🎵 TikTok</div>
+                    <h3>TikTok İzlenme</h3>
+                    <p>Videolarınızı viral yapan yüksek izlenme.</p>
+                    <div class="package-price">0.004₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="tiktok">
+                    <div class="package-badge">🎵 TikTok</div>
+                    <h3>TikTok Beğeni</h3>
+                    <p>Videolarınıza organik görünümlü beğeniler.</p>
+                    <div class="package-price">0.01₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="tiktok">
+                    <div class="package-badge">🎵 TikTok</div>
+                    <h3>TikTok Paylaşım</h3>
+                    <p>İçeriklerinizin erişimini artıran paylaşımlar.</p>
+                    <div class="package-price">0.15₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <!-- YouTube Services -->
+                <div class="package-card" data-platform="youtube">
+                    <div class="package-badge">▶️ YouTube</div>
+                    <h3>YouTube Abone</h3>
+                    <p>Kanalınızı büyüten gerçek ve kalıcı aboneler.</p>
+                    <div class="package-price">0.15₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card featured" data-platform="youtube">
+                    <div class="featured-badge">⭐ En Popüler</div>
+                    <div class="package-badge">▶️ YouTube</div>
+                    <h3>YouTube İzlenme</h3>
+                    <p>Algoritma dostu, yüksek tutulma oranlı izlenme.</p>
+                    <div class="package-price">0.002₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="youtube">
+                    <div class="package-badge">▶️ YouTube</div>
+                    <h3>YouTube Beğeni</h3>
+                    <p>Videolarınıza güvenilirlik katan beğeniler.</p>
+                    <div class="package-price">0.08₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="youtube">
+                    <div class="package-badge">▶️ YouTube</div>
+                    <h3>YouTube Yorum</h3>
+                    <p>Videolarınıza özel Türkçe yorumlar.</p>
+                    <div class="package-price">1.00₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <!-- Twitter Services -->
+                <div class="package-card" data-platform="twitter">
+                    <div class="package-badge">🐦 Twitter</div>
+                    <h3>Twitter Takipçi</h3>
+                    <p>Hesabınızı güçlendiren aktif takipçiler.</p>
+                    <div class="package-price">0.06₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="twitter">
+                    <div class="package-badge">🐦 Twitter</div>
+                    <h3>Twitter Beğeni</h3>
+                    <p>Tweet'lerinize organik etkileşim.</p>
+                    <div class="package-price">0.02₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="twitter">
+                    <div class="package-badge">🐦 Twitter</div>
+                    <h3>Twitter Retweet</h3>
+                    <p>İçeriklerinizin erişimini artıran retweet.</p>
+                    <div class="package-price">0.03₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <!-- Spotify Services -->
+                <div class="package-card" data-platform="spotify">
+                    <div class="package-badge">🎧 Spotify</div>
+                    <h3>Spotify Dinlenme</h3>
+                    <p>Şarkılarınıza premium kalite dinlenme.</p>
+                    <div class="package-price">0.01₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="spotify">
+                    <div class="package-badge">🎧 Spotify</div>
+                    <h3>Spotify Takipçi</h3>
+                    <p>Profilinizi güçlendiren gerçek takipçiler.</p>
+                    <div class="package-price">0.10₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+
+                <div class="package-card" data-platform="spotify">
+                    <div class="package-badge">🎧 Spotify</div>
+                    <h3>Spotify Playlist</h3>
+                    <p>Çalma listelerinize kaliteli takipçi.</p>
+                    <div class="package-price">0.12₺<span style="font-size: 1rem; color: var(--text-muted);">/adet</span></div>
+                    <a href="order.html" class="btn-primary">Sipariş Ver</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Hizmetlerimizi Kullanmaya Başla</h2>
+                <p>Binlerce kullanıcının tercih ettiği profesyonel SMM paneli ile hedeflerine ulaş.</p>
+                <div class="cta-buttons">
+                    <a href="register.html" class="btn-primary btn-large">Hemen Kayıt Ol</a>
+                    <a href="index.html#faq" class="btn-secondary btn-large">SSS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">SosyalBoost</span>
+                    </div>
+                    <p>Profesyonel SMM Panel ile sosyal medya hedeflerinize ulaşın.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="services.html">Hizmetler</a></li>
+                        <li><a href="index.html#how">Nasıl Çalışır?</a></li>
+                        <li><a href="index.html#faq">SSS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Hesap</h4>
+                    <ul>
+                        <li><a href="login.html">Giriş Yap</a></li>
+                        <li><a href="register.html">Kayıt Ol</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Yasal</h4>
+                    <ul>
+                        <li><a href="#">KVKK & Gizlilik</a></li>
+                        <li><a href="#">Kullanım Şartları</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SosyalBoost – Profesyonel SMM Panel. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation
+        const navbar = document.getElementById('navbar');
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Platform filter
+        const platformBtns = document.querySelectorAll('.tab-btn');
+        const serviceCards = document.querySelectorAll('.package-card');
+
+        platformBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const platform = btn.getAttribute('data-platform');
+                
+                platformBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                serviceCards.forEach(card => {
+                    const cardPlatform = card.getAttribute('data-platform');
+                    
+                    if (platform === 'all' || cardPlatform === platform) {
+                        card.style.display = 'block';
+                        card.style.animation = 'fadeIn 0.5s ease';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Loading animation
+        window.addEventListener('load', () => {
+            document.body.style.opacity = '0';
+            setTimeout(() => {
+                document.body.style.transition = 'opacity 0.5s ease';
+                document.body.style.opacity = '1';
+            }, 100);
+        });
+    </script>
+</body>
+</html>
